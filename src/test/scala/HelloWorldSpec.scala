@@ -10,7 +10,7 @@ class HelloWorldSpec extends FunSpec {
     }
 
     it("Should call another method") {
-      assert(HelloWorld.getHelloWorld() == "Hello World");
+      assert(HelloWorld.getHelloWorld() == "Hello World!");
     }
   }
 

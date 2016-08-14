@@ -6,8 +6,8 @@ object HelloWorld {
     println("Hello World!!!")
   }
 
-  def getHelloWorld(): Unit = {
-    return "Hello World!"
+  def getHelloWorld() = {
+    "Hello World!"
   }
 }
 
