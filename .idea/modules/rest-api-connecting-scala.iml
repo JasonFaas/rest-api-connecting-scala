@@ -21,6 +21,50 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: commons-codec:commons-codec:1.9:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: commons-logging:commons-logging:1.2:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: org.apache.httpcomponents:httpclient:4.5.2:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: org.apache.httpcomponents:httpcore:4.4.5:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="module-library">
       <library name="SBT: org.scala-lang:scala-library:2.11.8:jar" type="Scala">
         <properties>
@@ -93,6 +137,17 @@
         </JAVADOC>
         <SOURCES>
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scalacheck/scalacheck_2.11/srcs/scalacheck_2.11-1.12.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: org.scalaj:scalaj-http_2.11:2.3.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaj/scalaj-http_2.11/jars/scalaj-http_2.11-2.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaj/scalaj-http_2.11/srcs/scalaj-http_2.11-2.3.0-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

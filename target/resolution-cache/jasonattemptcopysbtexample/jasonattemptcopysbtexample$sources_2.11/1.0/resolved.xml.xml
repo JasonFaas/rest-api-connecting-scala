@@ -4,7 +4,7 @@
 		module="jasonattemptcopysbtexample$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160813182342"
+		publication="20160814170204"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -44,6 +44,21 @@
 		</dependency>
 		<dependency org="org.scala-sbt" name="test-interface" rev="1.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="test-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalaj" name="scalaj-http_2.11" rev="2.3.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="scalaj-http_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.5" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.2" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-logging" name="commons-logging" rev="1.2" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-codec" name="commons-codec" rev="1.9" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" transitive="false" conf="scala-tool->default(compile)">
 			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>

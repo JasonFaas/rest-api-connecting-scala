@@ -4,7 +4,7 @@
 		module="jasonattemptcopysbtexample_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160813182342"
+		publication="20160814170203"
 	>
 		<description>
 		JasonAttemptCopySbtExample
@@ -43,6 +43,18 @@
 			<artifact name="scalacheck_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 			<artifact name="scalacheck_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scalacheck_2.11" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="org.scalaj" name="scalaj-http_2.11" rev="2.3.0" conf="test->default(compile)">
+			<artifact name="scalaj-http_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalaj-http_2.11" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.5" conf="test->default(compile)">
+			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="httpcore" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.2" conf="test->default(compile)">
+			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="httpclient" type="jar" ext="jar" conf="*"/>
 		</dependency>
 	</dependencies>
 </ivy-module>
